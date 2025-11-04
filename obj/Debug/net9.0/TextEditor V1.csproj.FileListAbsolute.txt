@@ -12,3 +12,4 @@
 /Users/iwopawlak/Text Editor/TextEditor V1/obj/Debug/net9.0/TextEditor V1.pdb
 /Users/iwopawlak/Text Editor/TextEditor V1/obj/Debug/net9.0/TextEditor V1.genruntimeconfig.cache
 /Users/iwopawlak/Text Editor/TextEditor V1/obj/Debug/net9.0/ref/TextEditor V1.dll
+/Users/iwopawlak/Text Editor/TextEditor V1/obj/Debug/net9.0/TextEditor V1.sourcelink.json
