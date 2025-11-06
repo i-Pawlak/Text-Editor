@@ -37,20 +37,20 @@
         {
             ConsoleKeyInfo UserInput = Console.ReadKey(true);
             MakeNewLine(ref lines, ref CurrentLine, ref UserInput);
-                if (UserInput.Key == ConsoleKey.Backspace && CurrentCharacter > 0 )
-                {
-                    CurrentCharacter--;
-                    lines[CurrentLine] = lines[CurrentLine].Substring(0, CurrentCharacter) +
-                                         lines[CurrentLine].Substring(CurrentCharacter + 1);
-                    Console.Clear();
+            if (UserInput.Key == ConsoleKey.Backspace && CurrentCharacter > 0 )
+            {
+                CurrentCharacter--;
+                lines[CurrentLine] = lines[CurrentLine].Substring(0, CurrentCharacter) +
+                                     lines[CurrentLine].Substring(CurrentCharacter + 1);
+                Console.Clear();
 
-                }
+            }
 
-                else
-                {
-                    lines[CurrentLine] += UserInput.KeyChar;
-                    CurrentCharacter++;
-                }
+            else
+            {
+                lines[CurrentLine] += UserInput.KeyChar;
+                CurrentCharacter++;
+            }
         }
 
         static void MakeNewLine(ref List<string> lines, ref int CurrentLine, ref ConsoleKeyInfo UserInput)
